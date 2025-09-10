@@ -194,7 +194,7 @@ const QRScanner: React.FC<QRScannerProps> = ({
           <p className="text-gray-300">Scan QR codes for instant guest check-in</p>
         </div>
 
-        <div className="relative w-full max-w-6xl bg-red-900 ">
+        <div className="relative w-full max-w-6xl">
           <div className="overflow-hidden rounded-3xl border border-white/20 bg-black/40 backdrop-blur-sm shadow-2xl">
             <div className="relative aspect-[16/9]">
               <video
