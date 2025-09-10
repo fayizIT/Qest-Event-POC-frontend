@@ -15,7 +15,8 @@ export default function App() {
                 console.log("QR result:", text);
                 // Example: parse and act
                 try {
-                  const payload = JSON.parse(text);
+                 console.log(JSON.parse(text));
+                 
                   // e.g., if (payload.t === "rsvp") { ...mark attendance... }
                 } catch {
                   // Non-JSON QR (e.g., URL) — handle as needed
