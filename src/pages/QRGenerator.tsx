@@ -77,7 +77,7 @@ const QRGenerator: React.FC = () => {
     try {
       setEmailSending(true);
       
-      const response = await fetch('http://localhost:3001/api/send-qr', {
+      const response = await fetch('https://qest-event-poc.vercel.app/api/send-qr', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
